@@ -10,6 +10,7 @@ h1,h2,h3,h4,h5,p{
 
 body{
     background-color: #121212 ;
+    
 }
 
 .layout{
@@ -70,4 +71,16 @@ body{
     font-weight: 900;
     font-size: 2rem;
     padding-top: 1rem;
+}
+
+#error{
+    padding-top: 2rem;
+    color: #fafafa;
+    font-size: 3rem;
+    display: none;
+}
+
+.grafica{
+    width: 80%;
+    height: 35%;
 }
