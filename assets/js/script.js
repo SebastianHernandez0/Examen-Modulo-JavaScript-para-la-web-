@@ -62,11 +62,11 @@ async function renderRes() {
                     fechas[i] = fechas[i].substring(0, 10)
                 }
                 const data = {
-                    labels: fechas,
+                    labels: fechas.reverse(),
                     datasets: [{
                         label: "USD vs CLP",
                         borderColor: "#fafafa",
-                        data: valor
+                        data: valor.reverse()
 
                     }]
 
@@ -92,11 +92,11 @@ async function renderRes() {
                     fechas[i] = fechas[i].substring(0, 10)
                 }
                 const data = {
-                    labels: fechas,
+                    labels: fechas.reverse(),
                     datasets: [{
                         label: "EUR vs CLP",
                         borderColor: "#fafafa",
-                        data: valor
+                        data: valor.reverse()
 
                     }]
 
